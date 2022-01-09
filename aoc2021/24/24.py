@@ -1,3 +1,5 @@
+# https://adventofcode.com/2021/day/24
+
 p1 = []
 p2 = []
 p3 = []
