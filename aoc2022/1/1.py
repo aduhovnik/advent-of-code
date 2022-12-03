@@ -1,3 +1,5 @@
+# https://adventofcode.com/2022/day/1
+
 res = []
 cur = 0
 with open('in.in', 'r') as f:
