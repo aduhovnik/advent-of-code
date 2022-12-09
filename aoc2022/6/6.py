@@ -1,4 +1,4 @@
-from collections import defaultdict
+# https://adventofcode.com/2022/day/6
 
 with open('in.in', 'r') as f:
     l = f.readline().strip('\n')

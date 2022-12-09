@@ -1,3 +1,5 @@
+# https://adventofcode.com/2022/day/8
+
 from functools import reduce
 
 with open('in.in', 'r') as f:

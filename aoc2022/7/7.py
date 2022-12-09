@@ -1,3 +1,5 @@
+# https://adventofcode.com/2022/day/7
+
 ls = []
 with open('in.in', 'r') as f:
     ls = [l.strip() for l in f.readlines()]
