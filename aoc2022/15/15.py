@@ -16,14 +16,10 @@ MX = 4000000
 
 for row in range(0, MX):
     used_in_row = []
-    beacons_in_row = set()
 
     for i in range(len(sensors)):
         s_x, s_y = sensors[i]
         b_x, b_y = beacons[i]
-
-        if b_y == row:
-            beacons_in_row.add(b_x)
 
         dist = abs(s_x - b_x) + abs(s_y - b_y)
         dist_to_row_y = abs(s_y - row)
