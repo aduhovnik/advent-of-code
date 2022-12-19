@@ -72,7 +72,7 @@ def solve2(cur_me='AA', cur_elephant='AA', my_minute=4, elephant_minute=4, cur_a
         return
 
     if part2_answer < cur_ans:
-        print(cur_ans)
+        print(f'Possible answer to part2: {cur_ans}')
 
     part2_answer = max(cur_ans, part2_answer)
 
