@@ -12,7 +12,7 @@ directions = {
     '>': (0, 1),
 }
 
-MAX_DAYS = 1000
+MAX_DAYS = 10000
 n, m = len(grid), len(grid[0])
 
 blizzards = []
@@ -69,14 +69,14 @@ for day in range(MAX_DAYS - 1):
 
             value = dist[day][y][x]
 
-            if (y, x) == (n - 1, m - 2) and value == 0:
+            if (y, x) == (n - 1, m - 2) and value == 0:  # achieve finish for the first time
                 ans_part1 = day
                 value = 1
 
-            if (y, x) == (0, 1) and value == 1:
+            if (y, x) == (0, 1) and value == 1:  # get back to the start
                 value = 2
 
-            if (y, x) == (n - 1, m - 2) and value == 2:
+            if (y, x) == (n - 1, m - 2) and value == 2:  # achieve finish for the second time
                 ans_part2 = day
 
             for i in range(4):
